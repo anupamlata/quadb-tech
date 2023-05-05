@@ -13,7 +13,7 @@ function Summary() {
   return (
     <>
       <div className="container">
-        <h1 className='row-centered align-items-center mt-5'><i>Summary of {show?.[0]?.['show']?.['name']}</i></h1>
+        <h1 className='row-centered align-items-center mt-5 rainbow-text'><i>Summary of {show?.[0]?.['show']?.['name']}</i></h1>
         <div className="row row-centered align-items-center">
           <div className="col-md-4 col-centered mt-5">
             <img width={400} height={600} src={show?.[0]?.['show']?.['image']?.['original'] || alternativeImageUrl} alt={show?.[0]?.['show']?.['name'] || ''} />
