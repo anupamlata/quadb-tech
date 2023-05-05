@@ -1,8 +1,8 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./Home";
-import Summary from "./Summary";
-import BookTicket from './BookTicket';
+import Home from "./Home/Home";
+import Summary from "./Summary/Summary";
+import BookTicket from './BookTicket/BookTicket';
 
 function App() {
   return (
